@@ -11,6 +11,12 @@
 		E32ED7F72AD11289002ABD9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ED7F62AD11289002ABD9C /* ContentView.swift */; };
 		E32ED7F92AD1128B002ABD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32ED7F82AD1128B002ABD9C /* Assets.xcassets */; };
 		E32ED7FD2AD1128B002ABD9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32ED7FC2AD1128B002ABD9C /* Preview Assets.xcassets */; };
+		E32ED8042AD126E5002ABD9C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ED8032AD126E5002ABD9C /* Product.swift */; };
+		E32ED8062AD12925002ABD9C /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ED8052AD12925002ABD9C /* ProductViewModel.swift */; };
+		E32ED80A2AD1488C002ABD9C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ED8092AD1488C002ABD9C /* SearchBar.swift */; };
+		E32ED80C2AD167DB002ABD9C /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ED80B2AD167DB002ABD9C /* AddProductView.swift */; };
+		E32ED80E2AD2BF49002ABD9C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ED80D2AD2BF49002ABD9C /* ImagePicker.swift */; };
+		E32ED8102AD2C034002ABD9C /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ED80F2AD2C034002ABD9C /* ProductListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		E32ED7F82AD1128B002ABD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E32ED7FA2AD1128B002ABD9C /* assignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = assignment.entitlements; sourceTree = "<group>"; };
 		E32ED7FC2AD1128B002ABD9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E32ED8032AD126E5002ABD9C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E32ED8052AD12925002ABD9C /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		E32ED8092AD1488C002ABD9C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		E32ED80B2AD167DB002ABD9C /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		E32ED80D2AD2BF49002ABD9C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E32ED80F2AD2C034002ABD9C /* ProductListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListView.swift; path = ../../../../Desktop/ProductListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				E32ED7F42AD11289002ABD9C /* assignmentApp.swift */,
 				E32ED7F62AD11289002ABD9C /* ContentView.swift */,
+				E32ED8032AD126E5002ABD9C /* Product.swift */,
+				E32ED80D2AD2BF49002ABD9C /* ImagePicker.swift */,
+				E32ED8052AD12925002ABD9C /* ProductViewModel.swift */,
+				E32ED80F2AD2C034002ABD9C /* ProductListView.swift */,
+				E32ED80B2AD167DB002ABD9C /* AddProductView.swift */,
+				E32ED8092AD1488C002ABD9C /* SearchBar.swift */,
 				E32ED7F82AD1128B002ABD9C /* Assets.xcassets */,
 				E32ED7FA2AD1128B002ABD9C /* assignment.entitlements */,
 				E32ED7FB2AD1128B002ABD9C /* Preview Content */,
@@ -139,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32ED8102AD2C034002ABD9C /* ProductListView.swift in Sources */,
 				E32ED7F72AD11289002ABD9C /* ContentView.swift in Sources */,
 				E32ED7F52AD11289002ABD9C /* assignmentApp.swift in Sources */,
+				E32ED80C2AD167DB002ABD9C /* AddProductView.swift in Sources */,
+				E32ED8062AD12925002ABD9C /* ProductViewModel.swift in Sources */,
+				E32ED8042AD126E5002ABD9C /* Product.swift in Sources */,
+				E32ED80E2AD2BF49002ABD9C /* ImagePicker.swift in Sources */,
+				E32ED80A2AD1488C002ABD9C /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
