@@ -63,4 +63,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ---
 
-**Contact Information:** [Your Name] - your.email@example.com
